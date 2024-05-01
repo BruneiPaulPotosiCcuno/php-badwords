@@ -7,7 +7,12 @@
 </head>
 <body>
 
-<form action=""></form>
+<form action="paragraph.php" method="GET">
+    <input name="paragraph" placeholder="text" type="text">
+    <input name="censure" placeholder="word censured" type="text">
+    <!-- Btn-sentinfo -->
+    <button type="submit">Invia</button>
+</form>
     
 </body>
 </html>
